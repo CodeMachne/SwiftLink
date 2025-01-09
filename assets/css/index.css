@@ -1,6 +1,4 @@
 .btn {
-
-
   text-decoration: none;
   border-radius: 50px;
   padding: 15px;
@@ -10,11 +8,9 @@
   font-family: poppins;
   border: none;
   font-size: 1.1rem;
-
 }
 
 .btn2 {
-
   position: relative;
   left: 20%;
   text-decoration: none;
@@ -26,7 +22,6 @@
   font-family: poppins;
   border: none;
   font-size: 1.1rem;
-
 }
 
 .bamaa {
@@ -36,15 +31,7 @@
 
 .btn:hover {
   color: black;
-
 }
-
-
-.vim {
-  display: flex;
-  justify-content: space-around;
-}
-
 
 .ani {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -54,7 +41,10 @@
 }
 
 .vim {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.246), rgba(0, 0, 0, 0.258)), url(/assets/img/delivery1.jpg);
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.246), rgba(0, 0, 0, 0.258)),
+    url(/assets/img/delivery1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -91,8 +81,6 @@
 }
 
 .btn1 {
-
-
   text-decoration: none;
   border-radius: 30px;
   border: none;
@@ -101,7 +89,6 @@
   color: white;
   background-color: black;
   font-family: poppins;
-
 }
 
 .home {
@@ -112,16 +99,13 @@
 .place {
   gap: 20px;
   height: 40vh;
-
-
 }
 
 .place div {
   padding: 0 6%;
 }
 
-
-.text{
+.text {
   font-family: poppins;
   color: black;
 }
@@ -148,7 +132,6 @@
   margin-top: 5%;
 }
 
-
 .dot img {
   height: 30vh;
 }
@@ -174,23 +157,16 @@
 
 .mage {
   display: block;
-
-
-
 }
 
 .mage img {
   height: 40vh;
 
   width: 100%;
-
 }
 
 .text img {
   height: 10vh;
-
-
-
 }
 
 .hold {
@@ -217,12 +193,10 @@
 .all {
   font-family: poppins;
   margin-top: 2%;
-
 }
 
 .txt {
   text-align: center;
-
 }
 
 .up {
@@ -235,14 +209,11 @@
 
 .up img {
   height: 45vh;
-
-
 }
 
 .sign {
   margin-top: 0;
 }
-
 
 .text7 {
   font-family: Arial, Helvetica, sans-serif;
@@ -250,8 +221,6 @@
   color: ghostwhite;
   position: relative;
   margin-top: 3%;
-
-
 }
 
 .news {
@@ -259,13 +228,13 @@
   flex-direction: column;
 }
 
-
 footer {
+  width: 100vw;
   display: flex;
   gap: 100px;
   justify-content: center;
   margin-top: 5%;
-  padding: 100px;
+  padding: 30px;
   background-color: rgb(4, 32, 2);
   color: ghostwhite;
 }
@@ -280,7 +249,7 @@ footer {
   font-family: poppins;
 }
 
-@media (max-width:992px) {
+@media (max-width: 992px) {
   footer {
     display: flex;
     flex-direction: column;
@@ -292,11 +261,9 @@ footer {
     background-color: rgb(9, 9, 9);
     color: ghostwhite;
   }
-
 }
 
-
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   .bamaa {
     position: relative;
     top: 80px;
@@ -304,7 +271,11 @@ footer {
   }
 
   .vim {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.246), rgba(0, 0, 0, 0.258)), url(/assets/img/delivery1.jpg);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.246),
+        rgba(0, 0, 0, 0.258)
+      ),
+      url(/assets/img/delivery1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -315,8 +286,6 @@ footer {
   }
 
   .btn {
-
-
     text-decoration: none;
     border-radius: 50px;
     padding: 15px;
@@ -326,7 +295,6 @@ footer {
     font-family: poppins;
     border: none;
     font-size: 1.1rem;
-
   }
 
   div {
@@ -347,7 +315,6 @@ footer {
     height: 300px;
     position: relative;
     top: 95px;
-
   }
 
   .place {
@@ -380,7 +347,6 @@ footer {
 
   .dot img {
     width: 100%;
-
   }
 
   .hold {
@@ -407,7 +373,6 @@ footer {
   }
 
   .btn2 {
-
     position: relative;
     left: 0%;
     text-decoration: none;
@@ -419,11 +384,7 @@ footer {
     font-family: poppins;
     border: none;
     font-size: 1.1rem;
-
   }
-
-
-
 
   footer {
     display: flex;
