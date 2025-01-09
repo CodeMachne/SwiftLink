@@ -1,0 +1,47 @@
+.hissss{
+    /* color: white; */
+    background-color: black;
+    border-radius: 10px 20px;
+    border: none;
+}
+.hisss{
+    /* color: white; */
+    background-color: blue;
+    border-radius: 10px 20px;
+    border: none;
+}
+.hiss{
+    /* color: white; */
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px 20px;
+    border: none;
+}
+.bda{
+    color: black;
+    /* background-color: transparent; */
+    text-decoration: none;
+    border-color: lightcoral;
+    border-radius: 10px 15px;
+    padding: 10px;
+    transition: 1s ease;
+}
+.bda:hover{
+    color: orange;
+}
+.boomm{
+    background-image: url(/assets/img/deliverybytruck.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.vama{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+.bama1 {
+    position: fixed;
+    z-index: 100000;
+    width: 100%;
+  
+  }
