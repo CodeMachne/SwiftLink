@@ -1,0 +1,144 @@
+.sack{
+    color: green;
+}
+.bama1{
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  top: 0;
+ 
+}
+body{
+    margin-top: 4%;
+}
+.text{
+    font-family: poppins;
+    text-align: center;
+    margin-top: .7%;
+    color: ghostwhite;
+}
+
+.cart ul li a{
+    list-style: none;
+    color: ghostwhite;
+    font-family: poppins;
+}
+
+.cart ul li a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+.btn a{
+    color: black;
+    font-family: poppins;
+
+}
+.cart ul{
+list-style: none;
+}
+.cart{
+    margin-top: 2%;
+    background-color: rgba(75, 66, 6, 0.869);
+    padding: 2%;
+
+}
+body{
+    background-color: rgb(3, 26, 3);
+}
+
+.sly{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.phone img{
+    height: 30vh;
+}
+
+.text1{
+    font-family: poppins;
+    text-align: start;
+    margin-top: .7%;
+    color: black;
+}
+
+.prod{
+    display: flex;
+    gap: 15px;
+    margin-top: 1.2%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+}
+
+
+.btn{
+    background-color: gold;
+}
+.phone{
+      
+        padding:1% 2%;
+        background-color: white;
+      
+}
+
+.text7 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    color: ghostwhite;
+    position: relative;
+    margin-top: 3%;
+
+
+}
+.text2{
+    font-family: poppins;
+  text-align: center;
+    margin-top: 3%;
+    color: black;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+}
+.text1{
+    font-family: poppins;
+}
+
+footer {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 5%;
+    padding: 100px;
+    background-color: rgb(4, 32, 2);
+    color: ghostwhite;
+}
+
+.list ul {
+    list-style: none;
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: ghostwhite;
+    font-family: poppins;
+}
+
+@media (max-width:992px){
+        footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 100px;
+        justify-content: center;
+        margin-top: 5%;
+        padding: 100px;
+        background-color: rgb(9, 9, 9);
+        color: ghostwhite;
+    }
+
+}
