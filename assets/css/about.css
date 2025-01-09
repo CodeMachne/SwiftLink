@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav{
+    box-shadow: 2px 2px 12px rgb(163, 157, 157);
+    position:sticky;
+    top: 0%;
+  }
+  .hero-abt{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.1)),url(../img/deliver\ bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+  }
+  .abt-hero-text{
+    animation-duration: 4s;
+    animation-name: droptext;
+    animation-delay: 0s;
+  }
+  @keyframes droptext {
+    0%{
+      transform: translate(0,-180px);
+    }
+    /* 10%{
+      transform: translate(200,);
+    } */
+  }
+  .anim-hero-text{
+    animation-duration: 4s;
+    animation-name: dropbox;
+    animation-delay: 0s;
+  }
+  @keyframes dropbox {
+    0%{
+      transform: translate(0,-140px);
+    }
+    /* 10%{
+      transform: translate(200,);
+    } */
+  }
+  .abt-text{
+    font-weight: bolder;
+    font-size: 3.5em;
+  }
+  
+  .deliverbox {
+    perspective: 500px;
+    animation: movephone 3s linear infinite;
+    animation-delay: 4s;
+    animation-duration: 4s;
+  }
+  
+  
+  @keyframes movephone {
+    0% {
+      transform: rotate(5deg);
+      transition: 3s;
+    }
+     40% {
+      transform: translate(20px,20px);
+    } 
+    80%{
+      transform: rotate(-5deg);
+    } 
+  }
+  
+  /* 3rd section */
+  .v-page {
+    margin-top: 15%;
+    height: auto;
+    background: rgb(219,219,219);
+  background: radial-gradient(circle, rgba(219,219,219,1) 50%, rgba(240,240,240,1) 52%); 
+    color: black;
+  }
+  .container11 {
+    position: relative;
+        max-width: 100%;
+  }
+  
+  .image {
+    max-width: 90%;
+    height: 95%;
+   
+  }
+  
+  .text11 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    /* Use viewport width units for responsive font size */
+    color: #00ff37;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.757);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+  }
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.9vw;
+    /* Use viewport width units for responsive font size */
+    color: #00ff37;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.757);
+    padding: 13px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  .cartype{
+    display: none;
+    text-align: center;
+  }
+  .cartype-text{
+    border-radius: 10px;
+    font-weight: bold;
+    padding:  0px;
+    font-size:20px;
+  }
+  
+  .motor-img{
+    width: 340px;
+    height: 250%;
+  }
+  .bttn-kift{
+    border: 2px solid #02801d;
+      border-radius: 20px;
+      font-size: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    background-color:#012709 ;
+  
+  
+  }
+  .bttn-kift:hover{
+    transition: 1s;
+    text-decoration: none;
+    background-color: chartreuse;
+  }
+  .contact-bg{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(../img/wp6045124-delivery-guy-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh; 
+    margin: 13% 0;
+  }
+  .bttn-contct{
+    border: 2px solid #02801d;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  background-color:#05a327 ;
+  }
+  
+  /* Ouick service */
+  .last-sec {
+    height: auto;
+    /* background: rgb(225,225,219); */
+    /* background: rgba(221,224,27,1);  */
+    background: rgb(170,247,143);
+    background: linear-gradient(229deg, rgba(170,247,143,1) 13%, rgba(93,255,155,1) 29%, rgba(44,235,118,1) 37%, rgba(39,188,96,1) 50%, rgba(27,224,126,1) 52%, rgba(188,249,201,1) 69%); 
+  }
+  
+  /* jhfiu */
+  .custom-shape-divider-top-1708651587 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(0deg);
+  }
+  
+  .custom-shape-divider-top-1708651587 svg {
+    position: relative;
+    display: block;
+    width: calc(121% + 1.3px);
+    height: 157px;
+  }
+  
+  .custom-shape-divider-top-1708651587 .shape-fill {
+    background: rgb(170,247,143);
+    background: linear-gradient(229deg, rgba(170,247,143,1) 13%, rgba(93,255,155,1) 29%, rgba(44,235,118,1) 37%, rgba(39,188,96,1) 50%, rgba(27,224,126,1) 52%, rgba(188,249,201,1) 69%); 
+  }
+  .bama1 {
+    position: fixed;
+    z-index: 100000;
+    width: 100%;
+  
+  }
