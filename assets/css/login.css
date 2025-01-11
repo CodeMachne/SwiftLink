@@ -1,3 +1,6 @@
+body{
+    font-family: poppins;
+}
 .hissss{
     background-color: black;
     border-radius: 10px 20px;
@@ -40,4 +43,8 @@
     z-index: 1;
     width: 100%;
   
+  }
+  .navbar-brand{
+    font-family: poppins; 
+    color:rgb(153, 153, 10);
   }
