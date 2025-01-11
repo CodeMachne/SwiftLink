@@ -1,11 +1,13 @@
+body{
+  font-family: poppins;
+  color: black;
+}
 .btn {
   text-decoration: none;
   border-radius: 50px;
   padding: 15px;
   width: 50%;
-  color: black;
   background-color: rgb(246, 213, 22);
-  font-family: poppins;
   border: none;
   font-size: 1.1rem;
 }
@@ -17,9 +19,7 @@
   border-radius: 15px;
   padding: 15px;
   width: 50%;
-  color: black;
   background-color: rgb(246, 213, 22);
-  font-family: poppins;
   border: none;
   font-size: 1.1rem;
 }
@@ -50,7 +50,6 @@
   background-position: top;
   height: 75vh;
   color: ghostwhite;
-  font-family: poppins;
 }
 
 @keyframes up-down {
@@ -73,7 +72,6 @@
   gap: 20px;
   align-items: center;
   justify-content: center;
-  font-family: poppins;
 }
 
 .sloth img {
@@ -88,12 +86,11 @@
   padding: 12px;
   color: white;
   background-color: black;
-  font-family: poppins;
 }
 
 .home {
   margin-top: 5%;
-  font-family: poppins;
+  background-color: rgb(22, 36, 2);
 }
 
 .place {
@@ -105,13 +102,12 @@
   padding: 0 6%;
 }
 
-.text {
+/* .text {
   font-family: poppins;
   color: black;
-}
+} */
 
 .text2 {
-  font-family: poppins;
   color: ghostwhite;
 }
 
@@ -143,7 +139,7 @@
 
 .text1 {
   margin-bottom: 10%;
-  color: black;
+  /* color: black; */
   text-align: center;
 }
 
@@ -184,14 +180,12 @@
   display: flex;
   gap: 400px;
   text-align: center;
-  font-family: poppins;
   justify-content: center;
   align-items: center;
   margin-top: 1%;
 }
 
 .all {
-  font-family: poppins;
   margin-top: 2%;
 }
 
@@ -246,7 +240,6 @@ footer {
 .list ul li a {
   text-decoration: none;
   color: ghostwhite;
-  font-family: poppins;
 }
 
 @media (max-width: 992px) {
@@ -275,13 +268,12 @@ footer {
         rgba(0, 0, 0, 0.246),
         rgba(0, 0, 0, 0.258)
       ),
-      url(/assets/img/delivery1.jpg);
+      url(../img/delivery1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     height: 85vh;
     color: ghostwhite;
-    font-family: poppins;
     display: block;
   }
 
@@ -292,9 +284,11 @@ footer {
     width: 95%;
     color: black;
     background-color: rgb(246, 213, 22);
-    font-family: poppins;
     border: none;
     font-size: 1.1rem;
+    a{
+      color: black;
+    }
   }
 
   div {
@@ -304,6 +298,9 @@ footer {
   .text {
     position: relative;
     left: 7px;
+    h1{
+      color: rgba(0, 0, 0, 0.872); 
+    }
   }
 
   .img-con img {
@@ -358,7 +355,6 @@ footer {
     display: flex;
     gap: 40px;
     text-align: center;
-    font-family: poppins;
     justify-content: center;
     align-items: center;
     margin-top: 3%;
@@ -385,7 +381,9 @@ footer {
     border: none;
     font-size: 1.1rem;
   }
-
+.btn2 > a{
+  color: black;
+}
   footer {
     display: flex;
     flex-direction: column;
@@ -397,4 +395,10 @@ footer {
     background-color: rgb(4, 32, 2);
     color: ghostwhite;
   }
+}
+.btn > a{
+  color: black;
+}
+.navbar-brand{
+  color: rgb(153, 153, 10);
 }
