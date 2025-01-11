@@ -41,7 +41,7 @@ To view and interact with the SwiftLink project locally:
 
 1. Clone the repository:  
    ```bash  
-   git clone <https://github.com/CodeMachne/SwiftLink>  
+   git clone https://github.com/CodeMachne/SwiftLink
    ```  
 
 2. Open the `index.html` file in your preferred browser to explore the website.  
@@ -65,5 +65,3 @@ Special thanks to **ALX Africa** for the guidance and resources provided during 
 
 ## License  
 This project is licensed under the MIT License. See the `LICENSE` file for more details.  
-
-```
