@@ -1,24 +1,20 @@
 .hissss{
-    /* color: white; */
     background-color: black;
     border-radius: 10px 20px;
     border: none;
 }
 .hisss{
-    /* color: white; */
     background-color: blue;
     border-radius: 10px 20px;
     border: none;
 }
 .hiss{
-    /* color: white; */
     background-color: lightgoldenrodyellow;
     border-radius: 10px 20px;
     border: none;
 }
 .bda{
     color: black;
-    /* background-color: transparent; */
     text-decoration: none;
     border-color: lightcoral;
     border-radius: 10px 15px;
@@ -29,7 +25,7 @@
     color: orange;
 }
 .boomm{
-    background-image: url(/assets/img/deliverybytruck.jpg);
+    background-image: url(../img/deliverybytruck.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -41,7 +37,7 @@
 }
 .bama1 {
     position: fixed;
-    z-index: 100000;
+    z-index: 1;
     width: 100%;
   
   }
