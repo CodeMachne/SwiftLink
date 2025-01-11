@@ -1,6 +1,3 @@
-Here’s a professional and tailored `README.md` for your project:  
-
-```markdown
 # SwiftLink  
 
 SwiftLink is a modern delivery website designed to provide seamless and efficient delivery services, combining speed, reliability, and a user-friendly interface. Built using **HTML** and **CSS (Bootstrap)**, this project showcases the potential of front-end development in creating an appealing and functional delivery platform.
@@ -44,12 +41,10 @@ To view and interact with the SwiftLink project locally:
 
 1. Clone the repository:  
    ```bash  
-   git clone <repository-link>  
+   git clone <https://github.com/CodeMachne/SwiftLink>  
    ```  
 
 2. Open the `index.html` file in your preferred browser to explore the website.  
-
-3. (Optional) Customize or extend the project by modifying the code.  
 
 ---
 
@@ -72,5 +67,3 @@ Special thanks to **ALX Africa** for the guidance and resources provided during 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.  
 
 ```
-
-Would you like help adding a logo, screenshots, or more setup instructions?
