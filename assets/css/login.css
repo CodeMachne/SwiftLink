@@ -1,140 +1,82 @@
-body{
-    font-family: poppins;
-      
-                  display: flex;
-      
-                  justify-content: center;
-      
-                  align-items: center;
-      
-                  height: 100vh;
-      
-                  background-color: #f0f0f0;
-      
-              }
-      
-              .signup-container {
-      
-                  background-color: #fff;
-                  display: flex;
-                  flex-direction: column;
-                  align-items: center;
-      
-                  padding: 20px;
-      
-                  border-radius: 5px;
-      
-                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      
-              }
-      
-              .signup-container h2 {
-      
-                  margin-bottom: 20px;
-      
-              }
-      
-              .signup-container input {
-      
-                  width: 100%;
-      
-                  padding: 10px;
-      
-                  margin: 10px 0;
-      
-                  border: 1px solid #ccc;
-      
-                  border-radius: 5px;
-      
-              }
-      
-              .signup-container button {
-                  width: 100%;
-      
-                  padding: 10px;
-      
-                  background-color: #007bff;
-      
-                  border: none;
-      
-                  border-radius: 5px;
-      
-                  color: ghostwhite;
-      
-                  font-size: 1rem;
-      
-              }
-      
-              .signup-container button:hover {
-      
-                  background-color: #0056b3;
-      
-              }
-      
-              .signup-container .g-signin2 {
-      
-                  margin: 10px 0;
-      
-              }
-      
-              .signup-container .github-signup {
-      
-                  background-color: #333;
-      
-                  margin: 10px 0;
-      
-              }
-      
-              .signup-container .github-signup:hover {
-      
-                  background-color: #24292e;
-      
-              }
-.hissss{
-    background-color: black;
-    border-radius: 10px 20px;
-    border: none;
+body {
+  font-family: poppins;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
 }
-.hisss{
-    background-color: blue;
-    border-radius: 10px 20px;
-    border: none;
-}
-.hiss{
-    background-color: lightgoldenrodyellow;
-    border-radius: 10px 20px;
-    border: none;
-}
-.bda{
-    color: black;
-    text-decoration: none;
-    border-color: lightcoral;
-    border-radius: 10px 15px;
-    padding: 10px;
-    transition: 1s ease;
-}
-.bda:hover{
-    color: orange;
-}
-.boomm{
-    background-image: url(../img/deliverybytruck.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-.vama{
-    display: flex;
-    justify-content: space-around;
-    width: 300px;
+.boomm {
+  background-image: url(../img/deliverybytruck.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .bama1 {
-    top: 0;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-  
-  }
-  .navbar-brand{
-    font-family: poppins; 
-    color:rgb(153, 153, 10);
-  }
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+.navbar-brand {
+  font-family: poppins;
+  color: rgb(153, 153, 10);
+}
+.login-container {
+  background-color: #fff;
+
+  padding: 20px;
+
+  border-radius: 5px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  width: 100%;
+
+  padding: 10px;
+
+  margin: 10px 0;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+}
+
+.login-container button {
+  width: 100%;
+
+  padding: 10px;
+
+  background-color: #28a745;
+
+  border: none;
+
+  border-radius: 5px;
+
+  color: #fff;
+
+  font-size: 16px;
+}
+
+.login-container button:hover {
+  background-color: #218838;
+}
+
+.login-container .g-signin2 {
+  margin: 10px 0;
+}
+
+.login-container .github-login {
+  background-color: #333;
+
+  margin: 10px 0;
+}
+
+.login-container .github-login:hover {
+  background-color: #444;
+}
