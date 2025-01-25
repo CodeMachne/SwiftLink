@@ -1,120 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="google-signin-client_id"
+      content="YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com"
+    />
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap-4.0.0-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/login.css" />
+    <script src="assets/js/login.js"></script>
+    <title>SWIFTLINK LOGIN</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/bootstrap-4.0.0-dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/login.css">
-  <title>SWIFTLINK LOGIN</title>
-</head>
+  <body class="boomm">
+    <nav class="navbar navbar-expand-md bg-light navbar-light bama1">
+      <h3 href="" class="navbar-brand">SWIFT<span class="sack">LINK</span></h3>
 
-<body class="boomm">
-  <nav class="navbar navbar-expand-md bg-light navbar-light bama1">
-    <h3 href="" class="navbar-brand">SWIFT<span
-            class="sack">LINK</span></h3>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mylinks">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#mylinks"
+      >
         <span class="navbar-toggler-icon"></span>
-    </button>
+      </button>
 
-    <div id="mylinks" class="collapse navbar-collapse justify-content-center">
+      <div id="mylinks" class="collapse navbar-collapse justify-content-center">
         <ul class="navbar-nav">
-            <li class="nav-item bama">
-                <a href="index.html" class="nav-link">Home</a>
-            </li>
+          <li class="nav-item bama">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
 
-            <li class="nav-item">
-                <a href="partner.html" class="nav-link">Partner</a>
-            </li>
+          <li class="nav-item">
+            <a href="partner.html" class="nav-link">Partner</a>
+          </li>
 
-            <li class="nav-item">
-                <a href="./accesories.html" class="nav-link">Accesories</a>
-            </li>
+          <li class="nav-item">
+            <a href="./accesories.html" class="nav-link">Accessories</a>
+          </li>
 
-            <li class="nav-item">
-                <a href="about.html" class="nav-link" >About</a>
-            </li>
-
-            <li class="nav-item">
-                <a href="login.html" class="nav-link" >Login</a>
-            </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
         </ul>
-    </div>
-</nav>
+      </div>
+    </nav>
+    <div class="login-container">
+      <h2>Login</h2>
 
+      <form id="loginForm">
+        <input type="text" id="username" placeholder="Username" required />
 
-  </div>
-</nav>
-  <!-- triger the modal with a button 
-      -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="myModal">Login to your account</button>
+        <input type="password" id="password" placeholder="Password" required />
 
-  <!-- modal 
-     -->
-  <div id="myModal" class="modalfade" role="dialog">
-    <div class="modal-dialog">
+        <button type="submit">Login</button>
+      </form>
 
-      <!-- modal content 
-        
-        -->
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title">KINDLY LOGIN TO YOUR ACCOUNT</h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        <div class="modal-body">
-          <div class="vama">
+      <div class="g-signin2" data-onsuccess="onSignIn"></div>
 
-            <a href="" class="text-dark">Login here</a>
-            <a href="signup.html" class="text-dark">New Account</a>
-
-          </div>
-          <br>
-
-          <div class="form-group">
-            <label for="">Email</label>
-            <input type="email" class="form-control" placeholder="ENTER YOUR EMAIL" required>
-          </div>
-
-          <div class="form-group">
-            <label for="">Password</label>
-            <input type="password" class="form-control" placeholder="ENTER PASSWORD" required>
-          </div>
-
-          <div class="text-center">
-            <button class="bda">Log into account</button>
-          </div>
-
-          <div class="ber text-center mt-5">
-            <p>OR</p>
-          </div>
-          <br>
-          <div class="text-center">
-            <div class="hiss">
-              <button class="hiss">Continue with Google</button>
-            </div>
-            <br>
-
-            <div class="hisss">
-              <button class="hisss text-white">Continue with Facebook</button>
-            </div>
-            <br>
-
-            <div class="hissss">
-              <button class="hissss text-white">Continue with Apple</button>
-            </div>
-          </div>
-
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
+      <button class="github-login" onclick="githubLogin()">
+        Login with GitHub
+      </button>
+      <div>
+        <p>
+          you don't have an account? <a href="./signup.html">sign up here</a>
+        </p>
       </div>
     </div>
-  </div>
-</body>
-<script src="./assets/bootstrap-4.0.0-dist/js/jquery-3.6.4.min.js"></script>
-<script src="./assets/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
 
+    <script src="./assets/bootstrap-4.0.0-dist/js/jquery-3.6.4.min.js"></script>
+    <script src="./assets/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+  </body>
 </html>
